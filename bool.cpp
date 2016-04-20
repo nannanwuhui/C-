@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//用bool作为参数和返回值，可读性会更好。
 int main(){
     bool b = true;
     cout << b << endl;//1
