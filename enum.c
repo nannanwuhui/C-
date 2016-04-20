@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
     enum E{a,b,c,d};
-    enum E e =100;
+    //enum E e =100;
+    E e = a;//(只能是枚举类型的,不接受整型)
     return 0;
 }
 #if 0
