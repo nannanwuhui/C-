@@ -72,10 +72,13 @@ zn@zn-OptiPlex-9010:~/demo/042816$ ./a.out
 zn@zn-OptiPlex-9010:~/demo/042816$ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/zn/bqvision/clearvision/linux_x86_64/debug/lib
 zn@zn-OptiPlex-9010:~/demo/042816$ echo $LD_LIBRARY_PATH
 :/home/zn/bqvision/clearvision/linux_x86_64/debug/lib
-zn@zn-OptiPlex-9010:~/demo/042816$ ./a.out
-MediaSession(MediaSessionImpl* impl)!
-operator=
-~MediaSession()
-~MediaSession()
-zn@zn-OptiPlex-9010:~/demo/042816$
+zn@zn-OptiPlex-9010:~/demo/042816$ ./a.out 
+MediaSessionImpl():1
+MediaSession(MediaSessionImpl* impl)!:1
+MediaSession(const MediaSession& other)
+ref_count:2
+ref_count:2
+~MediaSession():4205504:ref_count:2
+~MediaSession():0:ref_count:1
+~MediaSessionImpl():0
 #endif
